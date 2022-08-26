@@ -1,0 +1,117 @@
+*{
+  font-size:14px;
+  color:white;
+  font-family:"Century Schoolbook L";
+}
+
+CallWidget QLineEdit#telEdt
+{
+  font-size:24px;
+
+}
+
+QMainWindow,QDialog{
+     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #1B2534, stop: 0.4 #010101,
+                                 stop: 0.5 #000101, stop: 1.0 #1F2B3C);
+}
+QWidget{
+    background:#121922;
+}
+
+QLabel{
+   background:transparent;
+}
+
+
+DailForm QLineEdit#phoneLineEdt{
+  font-size:36px;
+  font-weight: bold;
+}
+
+QPushButton,QToolButton{
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #5B5F5F, stop: 0.5 #0C2436,
+                                 stop: 1.0 #27405A);
+    border-style: outset;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #11223F;
+    padding: 1px;
+}
+
+QPushButton::hover,QToolButton::hover{
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #758385, stop: 0.5 #122C39,
+                                 stop: 1.0 #0E7788);
+    border-color: #11505C;
+}
+
+QPushButton::pressed,QToolButton::pressed{
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #969B9C, stop: 0.5 #16354B,
+                                 stop: 1.0 #244F76);
+    border-color: #11505C;
+}
+QPushButton::disabled,QToolButton::disabled{
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #282B2C, stop: 0.5 #09121A,
+                                 stop: 1.0 #111D29);
+    border-color: #0A1320;
+    color:#6A6864;
+}
+
+QLineEdit,QTextEdit {
+    border: 1px solid #32435E;
+    border-radius: 3px;
+    /* padding: 0 8px; */
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #080B10,
+                                 stop: 1.0 #212C3F);
+    selection-background-color: #0A246A;
+}
+
+QLineEdit::hover{
+  border-color:#5D8B9E;
+}
+
+QLineEdit[echoMode="3"] {
+     lineedit-password-character: 9679;
+}
+
+#QLineEdit:read-only {
+     background: #543F7C;
+}
+
+QProgressBar {
+	/* 外边框 */
+	border:2px solid #5D8B9E;
+
+	/* 倒角 */
+	border-radius:5px;
+
+	/* 字体对齐方式 */
+	text-align:center;
+}
+
+/* 进度条 */
+QProgressBar::chunk {
+	/* 颜色 */
+	background-color:#05B8CC;
+
+	/* 步进距离 */
+	width:5px;
+
+	/* 进度条中间空白区域宽度 */
+	margin:1px;
+}
+
+QListView{
+    border: 1px solid #32435E;
+    background:#050609;
+}
+
+QGraphicsView{
+    border: 1px solid #32435E;
+    background:#050609;
+}
